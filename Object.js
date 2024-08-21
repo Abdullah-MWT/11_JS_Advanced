@@ -5,8 +5,13 @@
 function createFullName(firstName,lastName) {
      this.firstName = firstName;
      this.lastName = lastName;
+     this.nickName = ''
 }
 
 createFullName.prototype.addNickName = function() {
-    this.lastName + addNickName
+    this.lastName + this.nickName
 }
+
+let Nam1 = new createFullName('Abdullah',"gul",'Developer');
+console.log(Nam1);
+
