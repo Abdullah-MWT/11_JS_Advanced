@@ -15,3 +15,5 @@ createFullName.prototype.addNickName = function() {
 let Nam1 = new createFullName('Abdullah',"gul",'Developer');
 console.log(Nam1);
 
+
+
